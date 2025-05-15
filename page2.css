@@ -1,0 +1,111 @@
+body{
+   background: linear-gradient(rgb(15, 6, 71), rgb(46, 2, 45));
+   font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(rgb(15, 6, 71), rgb(46, 2, 45));
+   height: 100vh;
+   
+  display: flex;
+  justify-content: center;
+align-items: center;
+   
+}
+   header{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 25px;
+}
+
+.logo{
+   font-size: 30px;
+   text-transform: uppercase;
+}
+.ul{
+   width: 60%;
+     list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .ul a {
+     border-bottom: 2px solid transparent;
+   }
+   .ul a:hover {
+      border-bottom-color: white;
+   }
+   .content{
+      color: white;
+       width: 50%;
+     margin-top: 50px;
+    padding: 30px;
+    }
+    .container .li:hover{
+      background-color: rgb(74, 8, 91);
+   padding:5px 10px;
+   border-radius: 20px;
+   transition: 0.5s;
+   }
+   .video-container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+
+   }
+   .video-container video{
+      width: 50%;
+   }
+   .container{
+   background-image:  url(stars1.png);;
+      width: 90%;
+   height: 700px;
+   }
+  
+ 
+   .list{
+ direction: rtl;
+text-align:right;
+color: white;
+font-size: 20px;
+}
+
+   *{
+      margin: 0;
+      padding: 0;
+   }
+      a{
+     color: white;
+     text-decoration: none;
+   }
+  
+  .h2:hover {
+  color: hotpink;
+  text-decoration: underline;
+
+}
+
+
+
+.h2:active {
+  color: blue;
+  text-decoration: underline;
+
+}
+
+
+
+   
+   
+   
+ 
+   
+  
+   
+   
+    
+   
+   
+  
+    
+    
